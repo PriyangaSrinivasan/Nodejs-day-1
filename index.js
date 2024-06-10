@@ -12,7 +12,7 @@ app.use(express.json())
 
 //routes
 app.get('/',(req,res)=>{
-    res.status(200).send(`h1 style="background-color:lightpink;padding:10px 0px;text-align:center">Express server is connected Successfully</h1>`)
+    res.status(200).send(`<h1 style="background-color:lightpink;padding:10px 0px;text-align:center">Express server is connected Successfully</h1>`)
 })
 //Create a text file
 app.get('/create',(req,res)=>{
